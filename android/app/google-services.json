@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "474169407846",
+    "project_id": "vitalvault-efab2",
+    "storage_bucket": "vitalvault-efab2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474169407846:android:138c4ff108231f235d30a7",
+        "android_client_info": {
+          "package_name": "com.example.vitalvaultbeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474169407846-i57pn62h4ip5mistttv4u1sn06dfbqjb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vitalvaultbeta",
+            "certificate_hash": "ea3235492c812a5c4a3b9ce115680bbeb9726cbe"
+          }
+        },
+        {
+          "client_id": "474169407846-eh0q38imt7ibojikilije5rtp5gssbvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtrE8mME5FkorYcEwr3ut1_0FK5lnzuZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474169407846-eh0q38imt7ibojikilije5rtp5gssbvb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "474169407846-epdcrhbv3kbi5uav1n8m8kjd0tiujn6c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.vitalvaultbeta"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
