@@ -1,6 +1,10 @@
 # Python
-backend/venv/
-backend/__pycache__/
+venv/
+__pycache__/
+config/__pycache__/
+models/__pycache__/
+routes/__pycache__/
+utils/__pycache__/
 *.pyc
 
 # Flutter
@@ -12,3 +16,4 @@ pubspec.lock
 # General
 .env
 .DS_Store
+serviceAccountKey.json
