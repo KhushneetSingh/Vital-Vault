@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:vitalvaultbeta/components/appBody.dart';
+import 'package:vitalvaultbeta/constants/appColors.dart';
+import 'package:vitalvaultbeta/homeScreen.dart';
 import 'package:vitalvaultbeta/loginScreen.dart';
 
 import 'package:firebase_core/firebase_core.dart';
+import 'package:vitalvaultbeta/profileSelectionScreen.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -20,7 +23,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'vitalvault',
-      home: LoginScreen(),
+      home: //LoginScreen(),
+          ProfileSelectionScreen(),
     );
   }
 }

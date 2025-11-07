@@ -124,7 +124,7 @@ class _GoogleLogInButtonState extends State<GoogleLogInButton> {
       child: ElevatedButton(
         style: ButtonStyle(
           minimumSize: WidgetStateProperty.all<Size>(
-            const Size(double.infinity, 56),
+            const Size(double.infinity, 50),
           ),
           shape: WidgetStateProperty.all<RoundedRectangleBorder>(
             RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),

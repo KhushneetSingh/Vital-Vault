@@ -12,7 +12,7 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF121826),
+      backgroundColor: Color(0xFF101F22),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(30),
@@ -51,6 +51,7 @@ class LoginScreen extends StatelessWidget {
               SizedBox(height: 50),
               GoogleLogInButton(),
               SizedBox(height: 10),
+
               Text(
                 "Or Sign in with email",
                 style: GoogleFonts.poppins(

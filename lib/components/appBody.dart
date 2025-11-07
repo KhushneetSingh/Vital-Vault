@@ -15,7 +15,6 @@ class Appbody extends StatelessWidget {
       child: SafeArea(
         child: Column(
           children: [
-            SizedBox(height: 16),
             customAppbar(),
             Expanded(child: child),
           ],

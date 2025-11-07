@@ -49,6 +49,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.4.0"
+  chart_sparkline:
+    dependency: "direct main"
+    description:
+      name: chart_sparkline
+      sha256: "1f0aa4d8b39a9bc67bde5e6d5d8951d3e3bcb5ed1f4b16d484489a51d490d083"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.2"
   checked_yaml:
     dependency: transitive
     description:
