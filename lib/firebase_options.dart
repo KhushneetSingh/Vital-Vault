@@ -51,6 +51,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyDtrE8mME5FkorYcEwr3ut1_0FK5lnzuZc',
+    // APi key to be removed 
     appId: '1:474169407846:android:138c4ff108231f235d30a7',
     messagingSenderId: '474169407846',
     projectId: 'vitalvault-efab2',
@@ -59,6 +60,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyB1KTvLVnGrBnENR5mbiP4KGmAiOJziUrs',
+    // Api Key to be removed 
     appId: '1:474169407846:ios:1d38e21c4b0625985d30a7',
     messagingSenderId: '474169407846',
     projectId: 'vitalvault-efab2',
