@@ -1,16 +1,44 @@
-# vitalvaultbeta
+# Vital Vault
 
-A new Flutter project.
+Vital Vault is a Flutter-based mobile application designed to manage and visualize your essential data securely. The application integrates with Firebase for robust authentication and real-time data handling.
+
+## Features
+
+- **Secure Authentication**: Uses Firebase Authentication and Google Sign-In for a seamless and secure login experience.
+- **Profile Management**: Choose and manage your user profile easily after logging in.
+- **Data Visualization**: View your important metrics and data trends using sparkline charts.
+- **Cross-Platform**: Built with Flutter, supporting Android and iOS devices.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- [Dart](https://dart.dev/get-dart)
+- A Firebase project with Authentication enabled.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Vital-Vault
+   ```
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Run the app:
+   ```bash
+   flutter run
+   ```
+
+## Technologies Used
+
+- [Flutter](https://flutter.dev/) - UI Toolkit
+- [Firebase](https://firebase.google.com/) - Backend services (Auth, Core)
+- [Google Fonts](https://fonts.google.com/) - Typography
+- [Chart Sparkline](https://pub.dev/packages/chart_sparkline) - Data Visualization
