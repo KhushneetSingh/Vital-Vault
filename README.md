@@ -1,4 +1,4 @@
-<![CDATA[# 🏥 VitalVault — AI-Powered Health Companion
+# 🏥 VitalVault — AI-Powered Health Companion
 
 > *"Your Health Records, Secured & Analyzed with AI Intelligence"*
 
@@ -78,8 +78,6 @@ Vital-Vault/
 │       └── screensSizes.dart        # Responsive screen utilities
 ├── assets/
 │   └── icons/                       # App icons and images
-├── backend/                         # Backend service files (WIP)
-├── frontend/                        # Frontend web files (WIP)
 ├── android/                         # Android platform config
 ├── ios/                             # iOS platform config
 ├── web/                             # Web platform config
@@ -181,4 +179,3 @@ Built with ❤️ by the VitalVault team.
 <p align="center">
   <b>VitalVault</b> — Your Health, Secured. 🛡️
 </p>
-]]>
