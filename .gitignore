@@ -48,6 +48,11 @@ routes/__pycache__/
 utils/__pycache__/
 *.pyc
 
+# Flutter
+build/
+.ios/
+.android/
+pubspec.lock
 # General
 .env
 .DS_Store
