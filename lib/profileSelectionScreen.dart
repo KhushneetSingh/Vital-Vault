@@ -240,38 +240,38 @@ class _ProfileSelectionScreenState extends State<ProfileSelectionScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Appcolors.bg,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        automaticallyImplyLeading: false,
+        scrolledUnderElevation: 0,
+        leading: IconButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => Homescreen()),
+            );
+          },
+          icon: Icon(Icons.home, color: Appcolors.white),
+        ),
+        title: Text(
+          "Family Profiles",
+          style: GoogleFonts.poppins(
+            color: Appcolors.white,
+            fontSize: 20,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
+        centerTitle: true,
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.settings, color: Appcolors.white),
+          ),
+        ],
+      ),
       body: Column(
         children: [
-          AppBar(
-            backgroundColor: Colors.transparent,
-            automaticallyImplyLeading: false,
-            scrolledUnderElevation: 0,
-            leading: IconButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => Homescreen()),
-                );
-              },
-              icon: Icon(Icons.home, color: Appcolors.white),
-            ),
-            title: Text(
-              "Family Profiles",
-              style: GoogleFonts.poppins(
-                color: Appcolors.white,
-                fontSize: 20,
-                fontWeight: FontWeight.w700,
-              ),
-            ),
-            centerTitle: true,
-            actions: [
-              IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.settings, color: Appcolors.white),
-              ),
-            ],
-          ),
-          SizedBox(height: 25),
+          SizedBox(height: 10),
 
           // Add New Profile Button
           Container(
