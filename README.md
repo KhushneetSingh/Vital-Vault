@@ -1,6 +1,6 @@
 # 🏥 VitalVault — AI-Powered Health Companion
 
-> *"Your Health Records, Secured & Analyzed with AI Intelligence"*
+> _"Your Health Records, Secured & Analyzed with AI Intelligence"_
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Flutter](https://img.shields.io/badge/Flutter-3.24+-02569B?logo=flutter)](https://flutter.dev)
@@ -14,6 +14,7 @@ VitalVault is a **Flutter-based cross-platform mobile application** designed to 
 ## ✨ Features
 
 ### 🔑 Core
+
 - **Google Sign-In** — Seamless authentication powered by Firebase Auth.
 - **Family Profile Management** — Create and switch between multiple family member profiles with avatar, blood type, DOB, and relationship tracking.
 - **Health Dashboard** — At-a-glance view of heart rate, blood pressure, sleep, and stress with sparkline trend charts.
@@ -21,12 +22,14 @@ VitalVault is a **Flutter-based cross-platform mobile application** designed to 
 - **Upcoming Vaccinations** — View next vaccination appointments at a glance.
 
 ### 🤖 AI-Powered (Planned / In Progress)
+
 - **AI Chat Assistant** — Conversational health companion powered by Qwen via OpenRouter.
 - **Document Analysis** — Upload health documents for OCR extraction (ML Kit) and AI-powered report analysis.
 - **Symptom Checker** — Discuss symptoms with AI (with medical disclaimers).
 - **Health Insights** — Personalized health tips and record-based Q&A.
 
 ### 🔮 Roadmap
+
 - Wearable Integration (Google Fit / Apple HealthKit)
 - Emergency SOS with live location sharing
 - Nearby Healthcare Facilities finder (Google Maps)
@@ -76,8 +79,7 @@ Vital-Vault/
 │   └── constants/
 │       ├── appColors.dart           # App color palette
 │       └── screensSizes.dart        # Responsive screen utilities
-├── assets/
-│   └── icons/                       # App icons and images
+├── assets/                          # App icons and images
 ├── android/                         # Android platform config
 ├── ios/                             # iOS platform config
 ├── web/                             # Web platform config
@@ -92,16 +94,16 @@ Vital-Vault/
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology | Purpose |
-|-------|-----------|---------|
-| **Framework** | Flutter 3.24+ | Cross-platform UI |
-| **Language** | Dart 3.9+ | Application logic |
-| **Auth** | Firebase Auth + Google Sign-In | Authentication |
-| **Backend** | Firebase (Firestore, Storage, FCM) | Cloud services |
-| **Typography** | Google Fonts (Poppins) | Modern typography |
-| **Charts** | Chart Sparkline | Health metric visualization |
-| **AI** | Qwen via OpenRouter | Chat & document analysis (planned) |
-| **OCR** | Google ML Kit | Text extraction (planned) |
+| Layer          | Technology                         | Purpose                            |
+| -------------- | ---------------------------------- | ---------------------------------- |
+| **Framework**  | Flutter 3.24+                      | Cross-platform UI                  |
+| **Language**   | Dart 3.9+                          | Application logic                  |
+| **Auth**       | Firebase Auth + Google Sign-In     | Authentication                     |
+| **Backend**    | Firebase (Firestore, Storage, FCM) | Cloud services                     |
+| **Typography** | Google Fonts (Poppins)             | Modern typography                  |
+| **Charts**     | Chart Sparkline                    | Health metric visualization        |
+| **AI**         | Qwen via OpenRouter                | Chat & document analysis (planned) |
+| **OCR**        | Google ML Kit                      | Text extraction (planned)          |
 
 ---
 
@@ -117,22 +119,26 @@ Vital-Vault/
 ### Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/KhushneetSingh/Vital-Vault.git
    ```
 
 2. **Navigate to the project directory:**
+
    ```bash
    cd Vital-Vault
    ```
 
 3. **Set up environment variables:**
    Create a `.env` file in the root with your API keys:
+
    ```env
    OPENROUTER_API_KEY=your_key_here
    ```
 
 4. **Install dependencies:**
+
    ```bash
    flutter pub get
    ```
@@ -148,7 +154,7 @@ Vital-Vault/
 
 ## 📱 Screenshots
 
-*Coming soon — the app features a dark-themed UI with gradient backgrounds, sparkline health metrics, family profile cards, and a modern medicine tracker.*
+_Coming soon — the app features a dark-themed UI with gradient backgrounds, sparkline health metrics, family profile cards, and a modern medicine tracker._
 
 ---
 
